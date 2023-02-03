@@ -1,0 +1,52 @@
+{
+  "dir": "./session/",
+  "accounts_int": [
+    {
+      "user": "quydoan",
+      "password": "An12345678",
+      "filename": "int_quydoan.json"
+    },
+    {
+      "user": "linhht@bitnemo.vn",
+      "password": "Admin19101",
+      "filename": "int_linhht.json"
+    },
+    {
+      "user": "",
+      "password": "",
+      "filename": ""
+    }
+  ],
+  "accounts_pta": [
+    {
+      "user": "linhht@bitnemo.vn",
+      "password": "Admin19101",
+      "filename": "pta_linhht.json"
+    },
+    {
+      "user": "quynd",
+      "password": "admin191",
+      "filename": "pta_quynd.json"
+    },
+    {
+      "user": "pta-user-admin-rootgroup",
+      "password": "Admin19101",
+      "filename": "pta_user_admin_rootgroup.json"
+    },
+    {
+      "user": "pta-user-admin-subgroup",
+      "password": "Admin19101",
+      "filename": "pta_user_admin_subgroup.json"
+    },
+    {
+      "user": "pta-user-manager-rootgroup",
+      "password": "Admin19101",
+      "filename": "pta_user_manager_rootgroup.json"
+    },
+    {
+      "user": "pta-user-manager-subgroup",
+      "password": "Admin19101",
+      "filename": "pta_user_manager_subgroup.json"
+    }
+  ]
+}

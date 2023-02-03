@@ -1,0 +1,39 @@
+{
+    "create": {
+        "setting_button" : "//a[@class='settings-button']",
+        "worker_connect" : "//span[@class='fi-timer iconic-md ng-scope']",
+        "material_tab" : "//a[normalize-space()='Materials']",
+        "material_table" : "#materials-grid .k-grid-content",
+        "material_create_button" : "//button[@id='material-button-create']",
+        "reference_input" : "#materials-grid input[placeholder=\"Find by reference...\"]",
+        "icon_edit" : "#materials-grid .k-grid-content tr[role=\"row\"] .fi-pencil",
+        "icon_delete" : "#materials-grid .k-grid-content tr[role=\"row\"] .deleteMaterial",
+        "form" : {
+            "title_form" : ".material-title-param",
+            "form_create" : ".reveal.material-create-modal",
+            "name" : "//input[@placeholder='Name']",
+            "reference" : "//input[@placeholder='Reference']",
+            "group_default" : "//span[@class='k-input ng-scope'][normalize-space()='VSL International']",
+            "group_dropdown" : "drop-group-tree[group-ids=\"controls.groupIds\"]",
+            "material_set" : ".material-fields #material-set .k-widget.k-multiselect.k-header",
+            "unit" : "//span[contains(text(),'Select a unit ...')]",
+            "inputRoleListBox" : "input[role=\"listbox\"]",
+            "cost_per_unit" : "//input[@placeholder='Cost per unit']",
+            "density" : "input[ng-model=\"material.density\"]",
+            "button_save" : "//span[normalize-space()='Save material']",
+            "message_save_success" : "#message-create-element-success",
+            "button_cancel" : "#cancel-button",
+            "button_confirm" : "button[ng-click=\"confirm()\"]"
+        },
+        "notification" : {
+            "form_error" : ".reveal.small.dialog-modal",
+            "button_ok" : ".modal-buttons .button.ok"
+        }
+    },
+    "edit" : {
+        "form" : {
+            "dropdown_unit" : "#material-unit span[role=\"listbox\"]",
+            "dropdown_unit_cost" : ".cost-unit-contain .k-select"
+        }
+    }
+}

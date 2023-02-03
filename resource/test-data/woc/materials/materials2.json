@@ -1,0 +1,366 @@
+{
+    "create": {
+      "success" : [
+        {
+          "ID_test_case": "MA1", 
+          "name" : "Name Material2",
+          "reference" : "Reference Material2",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 2",
+          "unit" : "km",
+          "cost" : "100",
+          "unitCost" : "CAD",
+          "density" : "2100"
+        },
+        {
+          "ID_test_case": "MA2", 
+          "name" : "Name Material2",
+          "reference" : "     ",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 1",
+          "unit" : "km",
+          "cost" : "100",
+          "unitCost" : "CAD",
+          "density" : "2200"
+        },
+        {
+          "ID_test_case": "MA3", 
+          "name" : "Name Material2",
+          "reference" : "Reference Material1_-",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 2",
+          "unit" : "km",
+          "cost" : "100",
+          "unitCost" : "CAD",
+          "density" : "2300"
+        }, 
+        {
+          "ID_test_case": "MA4", 
+          "name" : "Name Material2",
+          "reference" : "Reference Material2",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 4",
+          "unit" : "km",
+          "cost" : "45.5",
+          "unitCost" : "CAD",
+          "density" : "2400"
+        },
+        {
+          "ID_test_case": "MA5", 
+          "name" : "Name Material2",
+          "reference" : "",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 5",
+          "unit" : "km",
+          "cost" : "100",
+          "unitCost" : "CAD",
+          "density" : "45.5"
+        },
+        {
+          "ID_test_case": "MA6", 
+          "name" : "Name Material2",
+          "reference" : "",
+          "group" : "",
+          "materialSet" : "",
+          "unit" : "km",
+          "cost" : "",
+          "unitCost" : "",
+          "density" : ""
+        }
+      ],
+      "fail" :[
+        {
+          "ID_test_case": "MA7", 
+          "name" : "",
+          "reference" : "Reference Material1",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 1",
+          "unit" : "km",
+          "cost" : "100",
+          "unitCost" : "CAD",
+          "density" : "200"
+        },
+        {
+          "ID_test_case": "MA8", 
+          "name" : "       ",
+          "reference" : "Reference Material",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 1",
+          "unit" : "km",
+          "cost" : "100",
+          "unitCost" : "CAD",
+          "density" : "200"
+        },
+        {
+          "ID_test_case": "MA9", 
+          "name" : "Name Material !\"#$%&'()*+,./:;<=>?@[\\]^`{|}~",
+          "reference" : "Reference Material",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 1",
+          "unit" : "km",
+          "cost" : "100",
+          "unitCost" : "CAD",
+          "density" : "200"
+        },
+        {
+          "ID_test_case": "MA10", 
+          "name" : "Name Material",
+          "reference" : "Reference Material ÀÁÂÃÄÇÈÉÊËÌÍúûÑÒÓÔÕÖÙÚÛÜÝŸŽàáâãäåæçèéêëìíîïñòóôõöšùùûüýÿž",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 1",
+          "unit" : "km",
+          "cost" : "100", 
+          "unitCost" : "CAD",
+          "density" : "200"
+        },
+        {
+          "ID_test_case": "MA11", 
+          "name" : "Name Material",
+          "reference" : "Ciment-1",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 1",
+          "unit" : "km",
+          "cost" : "100",
+          "unitCost" : "CAD",
+          "density" : "200"
+        },
+        {
+          "ID_test_case": "MA12", 
+          "name" : "Name Material",
+          "reference" : "Reference Material",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 1",
+          "unit" : "",
+          "cost" : "100",
+          "unitCost" : "CAD",
+          "density" : "200"
+        },
+        {
+          "ID_test_case": "MA13", 
+          "name" : "Name Material",
+          "reference" : "Reference Material",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 1",
+          "unit" : "km",
+          "cost" : "123a4",
+          "unitCost" : "CAD",
+          "density" : "200"
+        },
+        {
+          "ID_test_case": "MA14", 
+          "name" : "Name Material",
+          "reference" : "Reference Material",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 1",
+          "unit" : "km",
+          "cost" : " !\"#$%&'()*+,-/:;<=>?@[\\]^_`{|}~",
+          "unitCost" : "CAD",
+          "density" : "200"
+        },
+        {
+          "ID_test_case": "MA15", 
+          "name" : "Name Material",
+          "reference" : "Reference Material",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 1",
+          "unit" : "km",
+          "cost" : "100",
+          "unitCost" : "CAD",
+          "density" : "123a4"
+        },
+        {
+          "ID_test_case": "MA16", 
+          "name" : "Name Material",
+          "reference" : "Reference Material",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 1",
+          "unit" : "km",
+          "cost" : "100",
+          "unitCost" : "CAD",
+          "density" : " !\"#$%&'()*+,-/:;<=>?@[\\]^_`{|}~"
+        }      
+      ]    
+    }, 
+    "edit": {
+      "success" : [
+        {
+          "ID_test_case": "MA17", 
+          "name" : "Name Material Edit",
+          "reference" : "",
+          "group" : "VSL International",
+          "materialSet" : "",
+          "unit" : "g (gram)",
+          "cost" : "5000",
+          "unitCost" : "BYN",
+          "density" : "1500"
+        },
+        {
+          "ID_test_case": "MA18", 
+          "name" : "Name Material Edit",
+          "reference" : "             ",
+          "group" : "VSL International",
+          "materialSet" : "",
+          "unit" : "g (gram)",
+          "cost" : "5000",
+          "unitCost" : "BYN",
+          "density" : "1500"
+        },
+        {
+          "ID_test_case": "MA19", 
+          "name" : "Name Material Edit",
+          "reference" : "Reference Material Edit1  -_",
+          "group" : "VSL International",
+          "materialSet" : "",
+          "unit" : "g (gram)",
+          "cost" : "5000",
+          "unitCost" : "BYN",
+          "density" : "1500"
+        }, 
+        {
+          "ID_test_case": "MA20", 
+          "name" : "Name Material Edit",
+          "reference" : "",
+          "group" : "VSL International",
+          "materialSet" : "",
+          "unit" : "g (gram)",
+          "cost" : "69.7",
+          "unitCost" : "BYN",
+          "density" : "1500"
+        },
+        {
+          "ID_test_case": "MA21", 
+          "name" : "Name Material Edit",
+          "reference" : "",
+          "group" : "VSL International",
+          "materialSet" : "",
+          "unit" : "g (gram)",
+          "cost" : "5000",
+          "unitCost" : "BYN",
+          "density" : "69.7"
+        },
+        {
+          "ID_test_case": "MA22", 
+          "name" : "Name Material Edit",
+          "reference" : "",
+          "group" : "VSL International",
+          "materialSet" : "",
+          "unit" : "g (gram)",
+          "cost" : "",
+          "unitCost" : "",
+          "density" : ""
+        }
+      ],
+      "fail" :[
+        {
+          "ID_test_case": "MA23", 
+          "name" : "",
+          "reference" : "Reference Material Edit",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 1",
+          "unit" : "dm³",
+          "cost" : "5000",
+          "unitCost" : "BYN",
+          "density" : "1500"
+        },
+        {
+          "ID_test_case": "MA24", 
+          "name" : "              ",
+          "reference" : "Reference Material Edit",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 2",
+          "unit" : "dm³",
+          "cost" : "5000",
+          "unitCost" : "BYN",
+          "density" : "1500"
+        },
+        {
+          "ID_test_case": "MA25", 
+          "name" : "Name Material Edit",
+          "reference" : "Reference Material Edit !\"#$%&'()*+,./:;<=>?@[\\]^`{|}~",
+          "group" : "VSL International",
+          "materialSet" : "",
+          "unit" : "dm³",
+          "cost" : "5000",
+          "unitCost" : "BYN",
+          "density" : "1500"
+        },
+        {
+          "ID_test_case": "MA26", 
+          "name" : "Name Material Edit",
+          "reference" : "Reference Material Edit ÀÁÂÃÄÇÈÉÊËÌÍúûÑÒÓÔÕÖÙÚÛÜÝŸŽàáâãäåæçèéêëìíîïñòóôõöšùùûüýÿž",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 4",
+          "unit" : "items",
+          "cost" : "5000",
+          "unitCost" : "BYN",
+          "density" : "1500"
+        },
+        {
+          "ID_test_case": "MA27", 
+          "name" : "Name Material Edit",
+          "reference" : "Ciment-1",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 4",
+          "unit" : "m³ (cubic meters)",
+          "cost" : "5000",
+          "unitCost" : "BYN",
+          "density" : "1500"
+        },
+        {
+          "ID_test_case": "MA28", 
+          "name" : "Name Material Edit",
+          "reference" : "Reference Material Edit",
+          "group" : "VSL International",
+          "materialSet" : "Name Material Set 3",
+          "unit" : "dm³",
+          "cost" : "5000",
+          "unitCost" : "BYN",
+          "density" : "1500"
+        },
+        {
+          "ID_test_case": "MA29", 
+          "name" : "Name Material Edit",
+          "reference" : "Reference Material Edit",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 2",
+          "unit" : "cm²",
+          "cost" : "123a4",
+          "unitCost" : "BYN",
+          "density" : "1500"
+        },
+        {
+          "ID_test_case": "MA30", 
+          "name" : "Name Material Edit",
+          "reference" : "Reference Material Edit",
+          "group" : "VSL Qatar",
+          "materialSet" : "Name Material Set 4",
+          "unit" : "items",
+          "cost" : " !\"#$%&'()*+,-/:;<=>?@[\\]^_`{|}~",
+          "unitCost" : "BYN",
+          "density" : "1500"
+        },
+        {
+          "ID_test_case": "MA31", 
+          "name" : "Name Material Edit",
+          "reference" : "Reference Material Edit",
+          "group" : "VSL International",
+          "materialSet" : "",
+          "unit" : "dm³",
+          "cost" : "5000",
+          "unitCost" : "BYN",
+          "density" : "123a4"
+        },
+        {
+          "ID_test_case": "MA32", 
+          "name" : "Name Material Edit",
+          "reference" : "Reference Material Edit",
+          "group" : "VSL International",
+          "materialSet" : "",
+          "unit" : "m³ (cubic meters)",
+          "cost" : "5000",
+          "unitCost" : "BYN",
+          "density" : " !\"#$%&'()*+,-/:;<=>?@[\\]^_`{|}~"
+        }
+      ]
+    }
+  }

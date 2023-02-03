@@ -1,0 +1,28 @@
+{
+    "last7days" : "label[for=\"timeframe-last7\"]",
+    "lastweek" : "label[for=\"timeframe-lastweek\"]",
+    "custom" : "label[for=\"timeframe-custom\"]",
+    "startDate" : "input[k-ng-model=\"controls.startDate\"]:visible",
+    "endDate" :  "input[k-ng-model=\"controls.endDate\"]:visible",
+    "btn_reset" : "button[ng-click=\"reset()\"]",
+    "btn_show" : "button[ng-click=\"getReport()\"]",
+    "btn_exportXls" : "a[ng-click=\"exportToXls()\"]",
+    "btn_exportPDF" : "a[ng-click=\"exportToPDF()\"]",
+
+    "history" : {
+        "last7days" : "label[for=\"timeframe-last7-resource\"]",
+        "lastweek" : "label[for=\"timeframe-lastweek-resource\"]",
+        "custom" : "label[for=\"timeframe-custom-resource\"]",
+        "select_object" : "#history-tracking-objects",
+        "select_driver" : "#history-driver",
+        "k_select" : ".k-select",
+        "btn_reset" : "#history-button-cancel",
+        "btn_show" : "#history-button-show",
+        "tabs_journeys" : "li[active=\"tabs.journeys\"]",
+        "tabs_statistic" : "li[active=\"tabs.statistics\"]",
+        "tabs_activity" : "li[active=\"tabs.activity\"]",
+        "tabs_map" : "li[active=\"tabs.map\"]",
+        "history_stats_panel_no_activity" : ".history-stats-panel-no-activity",
+        "history_tracking_objects" : "#history-tracking-objects"
+    }
+}
