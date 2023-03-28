@@ -15,9 +15,13 @@ Install the dependencies by running npm install in the project directory.
 - **env**: This directory contains different configuration files for different enviroment (dev, int, pta, prd)
 - **resource**: This directory contains all resources for the project.
     - **element**: contains all selectors for the project. There are multiple files, each file is used for a page, function. There are also some common files that contain common selectors.
-    - **login-account**
-    - **test-data**
-- **scr**: This directory contains utility functions used in the project.
+    - **login-account**: account.json file includes all credentials to login system (for multiple enviroments dev, int, pta, prd). 
+    - **test-data**: includes test data for all test cases. User can modify a test case easily or can add a new test case without modifying source code.
+- **scr**: 
+    - **base**: base classes of page object
+    - **e2e**: contains test files
+    - **pages**: contains all page object model classes
+    - **utils**: contains utils class (for example login, save sessions, etc.)
 
 
 ## Usage
