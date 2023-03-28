@@ -9,7 +9,11 @@ Playwright version 1.18.0 or later
 
 ## Installation
 Clone the repository to your local machine.
-Install the dependencies by running npm install in the project directory.
+Install the dependencies by running npm install in the project directory. You also need to install playwright browsers
+````
+npm install
+npx playwright install
+````
 
 ## Project Structure
 - **env**: This directory contains different configuration files for different enviroment (dev, int, pta, prd)
@@ -25,10 +29,10 @@ Install the dependencies by running npm install in the project directory.
 
 
 ## Usage
-Update the config.json file with the URL of the website to be tested.
-Create a new test case file in the tests directory using the Page Object Model design pattern.
-Use the selectors defined in the selectors.json file in your test cases.
-Run the tests using the command npm run test.
+- Update the config files in the env folder with the URL of the website to be tested.
+- Create a new test case file in the scr/e2e directory. Page Object Files should be put in scr/pages folder.
+- Define selectors in separate json file in resource/element folder. Create test data in json file in resource/test-data folder.
+- Use the corresponding command that is defined in package.json file to run the test in different enviroments.
 
 ## Contributing
 Contributions to the project are welcome. Please open an issue or a pull request if you would like to contribute.
